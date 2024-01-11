@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 100px auto;
+}
+.content img{
+    width: 60px;
+}
+.content p{
+    max-width: 500px;
+    
+}
+.content ul li{
+    list-style: url(img/Done_ring_round_fill.svg);
+    padding: 5px;
+    
+    
+}
+
+
+.content2 .div1,.div2{
+    width: 400px;
+    background-color: white;
+    padding: 26px 90px 25px 20px;
+    margin-top: 60px;
+}
+.img1,.img2{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+.img1 .google{
+    width: 200px;
+}
+.img2 .meta{
+    width: 200px;
+}
+
+.div1,.div2{
+    position: absolute;
+    
+
+}
+.div1{
+    top: 100px;
+    right: 200px;
+}
+.div2{
+    top: 380px;
+    right: 400px;
+}
+
+
+@media screen and (max-width:576px) {
+   
+    .content2 .div1, .div2{
+        padding: 10px;
+    }
+    .div1,.div2{
+        position: static;
+        
+    
+    }
+    
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+   body{
+    background-color:aqua ;
+   }
+   
+    .content2 .div1, .div2{
+        padding: 10px;
+    }
+    .div1,.div2{
+        position: static;
+        
+    
+    }
+
+}
+@media screen and (min-width:993px) and (max-width:1250px){
+    .div1,.div2{
+        position: absolute;
+    }
+    .div1 {
+        top: 461px;
+        right: 530px;
+    }
+    .content2 .div1, .div2{
+        padding: 10px;
+    }
+    .div2 {
+        top: 460px;
+        right: 90px;
+    }
+}
+@media screen and (min-width:1250px) and (max-width:1600px){
+    .div1 {
+        top: 160px;
+        right: 120px;
+    }
+    .div2 {
+        top: 445px;
+        right: 117px;
+    }
+}
